@@ -5,8 +5,8 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pytgcalls import PyTgCalls, Stream
 import yt_dlp
 
-API_ID = "YOUR_API_ID"
-API_HASH = "YOUR_API_HASH"
+API_ID = "27197695"
+API_HASH = "de05cd9d80f518a31506088bcca414f5"
 BOT_TOKEN = "7659906884:AAGPwwG2u15D8EgY54YLnXy_9Gv7tzeBrX0"
 LOG_GROUP_ID = -1002136294449  # Log group ID
 SUPPORT_GROUP = "https://t.me/RU_DRA_098"  # Support group link
