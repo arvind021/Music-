@@ -18,9 +18,10 @@ bot_voice = PyTgCalls(bot)
 music_queue = {}  # Stores song queues for multiple groups
 
 # 🎵 YouTube Music Download
-def download_audio(url):
+def download_audio(url, cookies_file="cookies.txt"):
     ydl_opts = {
         "format": "bestaudio/best",
+        "cookiefile": cookies_file,  # YouTube cookies support
         "postprocessors": [{"key": "FFmpegExtractAudio", "preferredcodec": "mp3"}]
     }
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
