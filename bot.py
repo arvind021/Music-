@@ -8,9 +8,9 @@ import yt_dlp
 API_ID = "YOUR_API_ID"
 API_HASH = "YOUR_API_HASH"
 BOT_TOKEN = "7659906884:AAGPwwG2u15D8EgY54YLnXy_9Gv7tzeBrX0"
-LOG_GROUP_ID = -1001234567890  # Log group ID
-SUPPORT_GROUP = "https://t.me/YOUR_SUPPORT_GROUP"  # Support group link
-OWNER_ID = "YOUR_TELEGRAM_USER_ID"
+LOG_GROUP_ID = -1002136294449  # Log group ID
+SUPPORT_GROUP = "https://t.me/RU_DRA_098"  # Support group link
+OWNER_ID = "@RU_DRA_65"
 
 bot = Client("MusicBot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 bot_voice = PyTgCalls(bot)
